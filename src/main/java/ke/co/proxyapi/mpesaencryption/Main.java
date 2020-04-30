@@ -16,6 +16,7 @@ public class Main
         System.out.println("Auth Header: " + headerEncodingEncoding);
         System.out.println();
 
+        //how to encode STK Push/LnM credentials
         StkPushPasskeyEncoding passkeyEncoding = new StkPushPasskeyEncoding();
         StkPushPasskeyEncoding.StkPassword passkeyEncodingEncoded = passkeyEncoding.getEncoded(
                 "174379",
