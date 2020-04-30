@@ -12,7 +12,7 @@ public class Main
 
         //how to get API Authentication header
         ApiAuthenticationHeaderEncoding headerEncoding = new ApiAuthenticationHeaderEncoding();
-        String headerEncodingEncoding = headerEncoding.getEncoding("mVjAxwuJd2xwtAFfaI6tjuffBNHCvVAi", "14HKuEbrj01psKRa");
+        String headerEncodingEncoding = headerEncoding.getEncoded("mVjAxwuJd2xwtAFfaI6tjuffBNHCvVAi", "14HKuEbrj01psKRa");
         System.out.println("Auth Header: " + headerEncodingEncoding);
         System.out.println();
 

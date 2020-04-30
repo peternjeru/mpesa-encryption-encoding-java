@@ -5,7 +5,7 @@ import java.util.Base64;
 
 public class ApiAuthenticationHeaderEncoding
 {
-    public String getEncoding(String consumerKey, String consumerSecret)
+    public String getEncoded(String consumerKey, String consumerSecret)
     {
         String fullString = consumerKey + ":" + consumerSecret;
         String encoded = Base64.getEncoder().encodeToString(fullString.getBytes(Charset.forName("UTF-8")));
