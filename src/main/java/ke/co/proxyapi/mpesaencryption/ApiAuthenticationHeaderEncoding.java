@@ -3,7 +3,7 @@ package ke.co.proxyapi.mpesaencryption;
 import java.nio.charset.Charset;
 import java.util.Base64;
 
-public class AuthenticationHeaderEncoding
+public class ApiAuthenticationHeaderEncoding
 {
     public String getEncoding(String consumerKey, String consumerSecret)
     {

@@ -44,8 +44,8 @@ public class InitiatorPasswordEncryption
 
     /**
      * The Public key certificate being used. Replace with the respective certificate required depending on environment.
-     * To get it, just open the certificate in notepad++ and copy paste the contents here, then remove the new lines EXCEPT the
-     * first and last ones. Check the one below for the required format
+     * To get it, just open the certificate in notepad++ and copy paste the contents here, then remove the
+     * new lines <strong>EXCEPT</strong> the first and last newlines. Check the one below for the required format
      *
      * This is currently the G2 sandbox certificate, will not work with Daraja sandbox
      *
